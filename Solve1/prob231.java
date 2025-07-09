@@ -1,4 +1,3 @@
-package LeetCode.Solve;
 
 public class prob231 {
 

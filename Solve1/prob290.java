@@ -1,4 +1,4 @@
-package LeetCode.Solve;
+
 
 public class prob290 {
 

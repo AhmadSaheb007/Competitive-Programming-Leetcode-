@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch prob14",
+      "request": "launch",
+      "mainClass": "solve6.prob14",
+      "projectName": "Competitive_Programming"
+    }
+  ]
+}
