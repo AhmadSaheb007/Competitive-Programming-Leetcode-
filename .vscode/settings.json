@@ -8,5 +8,10 @@
       "mainClass": "solve6.prob14",
       "projectName": "Competitive_Programming"
     }
+  ],
+  "java.project.sourcePaths": [
+    "solve6",
+    "Solve1",
+    "solve5"
   ]
 }
