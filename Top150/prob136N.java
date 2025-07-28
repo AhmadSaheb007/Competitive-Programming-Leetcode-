@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
-public class prob136 {
-
+public class prob136N {
     public static void main(String[] args) {
         int[] nums = {4, 1, 2, 1, 2};
         System.out.println(singleNumber(nums));
@@ -13,13 +12,13 @@ public class prob136 {
         Arrays.sort(nums);
 
         // int singleNumber = 0;
-        for(int index = 0; index < nums.length -1; index++){
+        int index = 0; 
+        while(index < nums.length -1){
             if(nums[index] != nums[index + 1]){
                 return nums[index];
             }
-            
+            index = index + 2;
         }
-        return 0;
+        return nums[nums.length -1];
     }
-
 }
